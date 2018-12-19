@@ -1,0 +1,41 @@
+Problem:    mcf
+Rows:       4
+Columns:    5
+Non-zeros:  13
+Status:     OPTIMAL
+Objective:  COSTFLOW = 161 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 COSTFLOW     B            161                             
+     2 NODE1        NS            12            12             =            18 
+     3 NODE2        NS             0            -0             =           -12 
+     4 NODE3        NS             0            -0             =           -10 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x12          NU             5             0             5            -3 
+     2 x13          B              7             0            13 
+     3 x23          B              3             0             4 
+     4 x24          B              2             0             9 
+     5 x34          NU            10             0            10            -4 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

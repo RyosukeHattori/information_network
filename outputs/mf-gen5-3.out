@@ -1,0 +1,146 @@
+Problem:    mcf
+Rows:       42
+Columns:    36
+Non-zeros:  122
+Status:     OPTIMAL
+Objective:  FLOW_COST = 3180 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 FLOW_COST    B           3180                             
+     2 INTERNAL[2]  NS             0            -0             =            14 
+     3 INTERNAL[3]  NS             0            -0             =            10 
+     4 INTERNAL[4]  NS             0            -0             =            16 
+     5 INTERNAL[5]  NS             0            -0             =             6 
+     6 SOURCE[1]    NS           180           180             =            25 
+     7 CAPACITY[1,1]
+                    B              0                          -0 
+     8 CAPACITY[1,2]
+                    NU            25                          25            -8 
+     9 CAPACITY[1,3]
+                    NU           100                         100           -10 
+    10 CAPACITY[1,4]
+                    B             55                          70 
+    11 CAPACITY[1,5]
+                    B              0                          -0 
+    12 CAPACITY[1,6]
+                    B              0                          -0 
+    13 CAPACITY[2,1]
+                    B              0                          -0 
+    14 CAPACITY[2,2]
+                    B              0                          -0 
+    15 CAPACITY[2,3]
+                    B             10                          30 
+    16 CAPACITY[2,4]
+                    B              0                          -0 
+    17 CAPACITY[2,5]
+                    NU            15                          15            -4 
+    18 CAPACITY[2,6]
+                    B              0                          -0 
+    19 CAPACITY[3,1]
+                    B              0                          -0 
+    20 CAPACITY[3,2]
+                    B              0                          -0 
+    21 CAPACITY[3,3]
+                    B              0                          -0 
+    22 CAPACITY[3,4]
+                    B              0                          -0 
+    23 CAPACITY[3,5]
+                    B              0                          -0 
+    24 CAPACITY[3,6]
+                    B            135                         200 
+    25 CAPACITY[4,1]
+                    B              0                          -0 
+    26 CAPACITY[4,2]
+                    B              0                          -0 
+    27 CAPACITY[4,3]
+                    B             25                          60 
+    28 CAPACITY[4,4]
+                    B              0                          -0 
+    29 CAPACITY[4,5]
+                    B              0                          -0 
+    30 CAPACITY[4,6]
+                    NU            30                          30            -2 
+    31 CAPACITY[5,1]
+                    B              0                          -0 
+    32 CAPACITY[5,2]
+                    B              0                          -0 
+    33 CAPACITY[5,3]
+                    B              0                          -0 
+    34 CAPACITY[5,4]
+                    B              0                          -0 
+    35 CAPACITY[5,5]
+                    B              0                          -0 
+    36 CAPACITY[5,6]
+                    B             15                         150 
+    37 CAPACITY[6,1]
+                    B              0                          -0 
+    38 CAPACITY[6,2]
+                    B              0                          -0 
+    39 CAPACITY[6,3]
+                    B              0                          -0 
+    40 CAPACITY[6,4]
+                    B              0                          -0 
+    41 CAPACITY[6,5]
+                    B              0                          -0 
+    42 CAPACITY[6,6]
+                    B              0                          -0 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       NL             0             0                      100000 
+     2 x[1,2]       B             25             0               
+     3 x[1,3]       B            100             0               
+     4 x[1,4]       B             55             0               
+     5 x[1,5]       NL             0             0                       99981 
+     6 x[1,6]       NL             0             0                       99975 
+     7 x[2,1]       NL             0             0                      100011 
+     8 x[2,2]       NL             0             0                      100000 
+     9 x[2,3]       B             10             0               
+    10 x[2,4]       NL             0             0                      100002 
+    11 x[2,5]       B             15             0               
+    12 x[2,6]       NL             0             0                       99986 
+    13 x[3,1]       NL             0             0                      100015 
+    14 x[3,2]       NL             0             0                      100004 
+    15 x[3,3]       NL             0             0                      100000 
+    16 x[3,4]       NL             0             0                      100006 
+    17 x[3,5]       NL             0             0                       99996 
+    18 x[3,6]       B            135             0               
+    19 x[4,1]       NL             0             0                      100009 
+    20 x[4,2]       NL             0             0                       99998 
+    21 x[4,3]       B             25             0               
+    22 x[4,4]       NL             0             0                      100000 
+    23 x[4,5]       NL             0             0                       99990 
+    24 x[4,6]       B             30             0               
+    25 x[5,1]       NL             0             0                      100019 
+    26 x[5,2]       NL             0             0                      100008 
+    27 x[5,3]       NL             0             0                      100004 
+    28 x[5,4]       NL             0             0                      100010 
+    29 x[5,5]       NL             0             0                      100000 
+    37 x[5,6]       B             15             0               
+    31 x[6,1]       NL             0             0                      100025 
+    32 x[6,2]       NL             0             0                      100014 
+    33 x[6,3]       NL             0             0                      100010 
+    34 x[6,4]       NL             0             0                      100016 
+    35 x[6,5]       NL             0             0                      100006 
+    36 x[6,6]       NL             0             0                      100000 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
